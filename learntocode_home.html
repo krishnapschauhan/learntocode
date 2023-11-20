@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">      
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+        <title>www.learntocode.in</title>
+        <style>
+          .navbar{
+              overflow:hidden;
+              background-color:black;
+              position: ;
+          }
+          .navbar a{
+              float:right;
+              color:white;
+              text-align: center;
+              padding: 22px 16px;
+              text-decoration: none;
+              font-size: 22px;
+              font-family: 'Martian Mono', monospace;
+          }
+          .navbar a:hover{
+              color:black;
+              background-color:white;
+              border-radius:20px;
+          }
+          .navbar a.head{
+              float: left;
+              color:white;
+              background-color:;
+              font-size:22px;
+              border:2px solid black;
+              border-radius:15px 50px;
+          }
+          .navbar a.head:hover{
+              color:white;
+              background-color:black;
+          }
+          .heading{
+                   font-size:30px;
+                   font-family: 'Martian Mono', monospace;
+                   color:black;
+                   background-color: ;
+                   border-bottom:10px solid black;
+                   position: relative;
+                   display: inline;
+                           
+          }
+          * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+     font-family:'Martian Mono', monospace; 
+    float: left;
+    width: 24%;
+    padding:2px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .link1{
+      position:absolute;
+      margin:auto;
+      left:38%; 
+      top: 70%;
+      border:0px solid orange;
+      border-radius:10px;
+      color:white;
+      background-color:orange;
+      text-align:center;
+      font-size:50px;
+      font-family: 'Martian Mono', monospace;
+      text-decoration: none;
+  }
+  .link1:hover{
+      color:white;
+      background-color:orangered;
+  
+  }
+  table{
+      width:100%;
+      margin-top:30px;
+      font-family:'Martian Mono', monospace;
+  }
+  th{
+      height:50px;
+      color:white;
+      background-color: orange;
+  }
+  th,td{
+      padding:15px;
+  }
+  td{
+      text-align: center;
+      padding:25px;
+  }
+  tr:nth-child(even) {
+      background-color: #f2f2f2;
+  }
+  input[type=text], input[type=password] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+    width:50%;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: orangered;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+  }
+  footer {
+           text-align: center;
+          padding: 20px;
+          font-family: 'Martian Mono', monospace;
+          background-color: black;
+          margin-top:20px;           
+          line-height:1cm; 
+          color: white;
+          }
+      </style>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                
+                <a href="#" class="head"><i class="fa fa-coffee" aria-hidden="true"></i>LearntoCode!</h1>
+                <a href="file:///C:/Users/dell/Desktop/form.html" ><i class="material-icons" style="font-size:25px;">supervisor_account</i>About Us</a>
+                <a href="https://www.infobooks.org/free-pdf-books/computers/programming/" target="_blank"><i class="material-icons">language</i>Books</a>
+                <a href="https://leetcode.com/"><i class="material-icons">extension</i>Practice</a>
+                <a href="#"><i class="fa fa-home"></i>Home</a>
+            </div>
+        </header>
+        <div>
+            <img src="https://www.simslifecycle.com/wp-content/uploads/sites/2/2022/01/Electronic-Numerical-Integrator-And-Computer.png" width="100%" height="700px"
+            style="filter:blur(3px);">
+            <h1 style="position:absolute;margin:auto;left: 30%; top: 30%;color:white;text-align:center;font-size:30px;font-family:'Martian Mono', monospace;line-height:2.5cm;
+            ">WELCOME TO <br> <span style="color:orange;font-size:70px;">LearntoCode!</span></h1>  
+             <a href="#jump" class="link1">
+             Start Now &#8594;
+             </a>
+    </div>
+        
+        <div style="margin-top:50px;margin-left:30px;">
+            <img src="https://www.reshot.com/preview-assets/illustrations/NTK76WHCL5/server-network-technology-NTK76WHCL5-w600.jpg" style="float:right;margin:0px 15px 15px 15px;" height="400px" width="400px">
+        <h1 class="heading">Welcome to <span style="color:orange;">LearntoCode!</span></h1>
+        <p style="margin-top:50px;margin-left:30px;font-family:'Martian Mono', monospace;line-height:1cm;">"Welcome to the world of Programming! 🚀 <br>Unleash your coding potential and master the language that powers software development.<br>
+             Start your journey here and embark on a path to endless possibilities.<br> Happy coding!"</p> 
+        <h1 style="margin-top:0px;margin-left:px;font-family:'Martian Mono', monospace;border-bottom:10px solid black;
+        position: relative;
+        display: inline;">Why you should learn from us?</h1>   
+        <p style="margin-bottom:50px;margin-top:50px;margin-left:30px;font-family:'Martian Mono', monospace;line-height:1cm;">
+
+            &#x25CF; <b>Comprehensive Content:</b>Detailed lessons and exercises covering all aspects of C programming.<br>
+              
+            &#x25CF; <b>Clear Explanation:</b>Simple language and interactive examples for easy understanding.<br>
+            
+            &#x25CF; <b>Real-World Relevance:</b> Showcasing practical applications in software, system programming, and game development.<br>
+            
+            &#x25CF; <b>Problem-Solving Focus:</b> Emphasis on coding challenges, puzzles, and projects to enhance problem-solving skills.<br>
+            
+            &#x25CF; <b>Supportive Community:</b> Engaging forums and chat support for interactive learning and peer collaboration.<br>
+            
+            &#x25CF; <b>Regular Updates:</b> Keeping content current with the latest standards and adding new challenges to maintain user interest.<br>
+            
+            &#x25CF; <b>Personalized Paths:</b> Tailored learning journeys based on individual skills and goals.<br>
+            
+            &#x25CF; <b>Career Opportunities:</b> Highlighting job prospects and success stories to motivate learners.<br>
+            
+            &#x25CF; <b>Accessibility:</b> Mobile-friendly design, downloadable resources, and options for free basic content ensure accessibility for all.<br>
+        
+        </p> 
+        <div class="row" >
+            <div class="column">
+            <img src="https://img.freepik.com/free-vector/hand-coding-concept-illustration_114360-8113.jpg?w=740&t=st=1700493332~exp=1700493932~hmac=1156aad732dae847d96f73e45ba4033f48f1f8d618170f7a775e88abee2892bc" height="250px">
+            <h1><span style="color:orange;">C</span>ode</h1>
+        </div>
+        <div class="column">
+                    <img src="https://img.freepik.com/free-vector/office-management-concept-illustration_114360-8811.jpg?t=st=1700460471~exp=1700461071~hmac=0f048273337bd1bef4c925810a3d40cf5fb977ce7d5cdbca0ff3912dadd21e12" height="250px" width="330px">
+                    <h1><span style="color:orange;">I</span>ntegrate</h1>
+                </div>
+                <div class="column">
+                    <img src="https://img.freepik.com/free-vector/fill-out-concept-illustration_114360-5450.jpg?t=st=1700460471~exp=1700461071~hmac=fa25b317b1777a3593f94aaf939e260b6f1435c4178146943b9b0a61c3b948f3" height="250px">
+                    <h1><span style="color:orange;">T</span>each</h1>
+                </div>
+        <div class="column">
+                                <img src="https://img.freepik.com/free-vector/design-inspiration-concept-illustration_114360-3992.jpg?t=st=1700460471~exp=1700461071~hmac=10351d6eab6163665dbad14ef8a0f8a7a7a11efc0fa096e0a082a15268ce3b59" height="250px"><br>
+                                <h1><span style="color:orange;">A</span>cademia</h1>
+            </div>
+                            </div>
+            </div>
+        <div>
+            <h1 style="margin-top:0px;margin-left:30px;font-family:'Martian Mono', monospace;border-bottom:10px solid black;
+            position: relative;
+            display: inline;">Our Subscription Plans</h1> 
+            <table>
+                <tr>
+                  <th>Plan</th>
+                  <th>Programming Languages</th>
+                  <th>Validity</th>
+                  <th>Price</th>
+                </tr>
+                <tr>
+                  <td>Basic Plan</td>
+                  <td><img src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png?ga=GA1.1.495021464.1696089714&track=ais" height="60px" width="60px">
+                      <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png"  height="60px" width="60px">
+                </td>
+                  <td>1 month</td>
+                  <td>&#8377;1000</td>
+                </tr>
+                <tr>
+                  <td>Standard Plan</td>
+                  <td>
+                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png?ga=GA1.1.495021464.1696089714&track=ais" height="60px" width="60px">
+                    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png"  height="60px" width="60px">
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-512.png" height="60px" width="60px">  
+                </td>
+                  <td>3 months</td>
+                  <td>&#8377;2500</td>
+                </tr>
+                <tr>
+                  <td>Pro Plan</td>
+                  <td>
+                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png?ga=GA1.1.495021464.1696089714&track=ais" height="60px" width="60px">
+                    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png"  height="60px" width="60px">
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-512.png" height="60px" width="60px">  
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-256.png" height="60px" width="60px">
+                    <img src="https://cdn3.iconfinder.com/data/icons/font-awesome-brands/512/java-64.png"  height="60px" width="60px"> 
+                  </td>
+                  <td>6 months</td>
+                  <td>&#8377;5000</td>
+                </tr>
+                <tr>
+                  <td>Ultimate Plan</td>
+                  <td>
+                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png?ga=GA1.1.495021464.1696089714&track=ais" height="60px" width="60px">
+                    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png"  height="60px" width="60px">
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-512.png" height="60px" width="60px">  
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-256.png" height="60px" width="60px">
+                    <img src="https://cdn3.iconfinder.com/data/icons/font-awesome-brands/512/java-64.png"  height="60px" width="60px"> 
+                    <img src="https://cdn3.iconfinder.com/data/icons/sympletts-free-sampler/128/diamond-256.png" height="60px" width="60px">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANQAAADuCAMAAAB24dnhAAAA5FBMVEX///9lmtIARIIAWZxUkc5hmNFalNAAVZoASpUASJQAPn9imNEAQoEAV5tdltBYk8/i6fEAM3oATZYALHcAKXYAMXkALXcAN3wAT5fC0OC2x9sAO31qntYAU5piiLXy9vne6PRyotWxyeaAqtkdY6K+0uqnw+PK2u6JsNufveHf6fWWrcvL0995ptfu8/mlweM/Y5RUcp0nVIuhr8XP3u+Vt95JgrwLSoY6YJJhfKPV3OWIm7dwiKsoVYuotcpMbJl+k7I/c6lTfrArbKpxk7wAOI6GocSXrcs2Z5+Vpr9Vh767xtVYjfoyAAANlElEQVR4nNWde1/aShCGQUKUJAQil4iJDaAoWsR7LWix2nN6qnz/73MSAkggl5nZ3YS+fxX5GfK4O7vz7kxoLpeCLnrnx518vnN83mun8XniNbzSK3oxP1PR/efVMOs7YteVpOcD0qWrrO+JUT15DWmGJfeyvi8GtTvyJpInudPO+t6IGvYlNZwpn1el/l8ZWqdSMQpptmZIp1nfIVpnekgwrYWWfpb1XaJ00ZEjZ97KHJQ7F1nfKVjOg5RM5Et6cLK+W5i66ztT7ByUulnfL0D3KgJphqVue2hVLyuAYApKrVxWs77vGLnBhEaaYW1xaHUryJn3Kb2ynaF1n4/IiYBY+fusCTY0PKbNvE+p0vGWZU7n8TkRFOs8a44VhRoMirbHlEQaDIpku501Ty7eYFC0DaYkwWBQlLUpARgMinQ9u9BqgwwGRWpWfh9hMCiS+hlkTiiDQVH6puSsKBhphpWqKaEYDIpcU5KW36caDBJWSqaEwWBQlIYpuc+nijTDEmxKhsfpBFNQakWkKTlPL5jWsISZEm4GgyIxpuTe5mgwKJJt3qHF22BQxNuUXPE3GBQVORYhe2IMBkW8TIk4g0ERF1Pi9IUaDIqYTcmpaINBkc7k91MxGBTpRaopuUjJYFBENCVpGgySCKYkZYNBEdbvZ2AwKMKYkmwMBkWuKQEWIXkbDDVf1Jcq5jlfHGRKejyDSdfliqRe9h+uTruuTq8e+peqVJF55l16JSlz4mcwinpFujzv3Yck1sP73nlHWjYBMivelLCXA32pekXu9xI2knav7w4Zn8+LKULyMRiqLnVO2wkzYgF2aktcuKJMCR+DoVfyXZSVq54WKzz+lmGmxOFRDnQH6QE4Rqu673NJm+XOWopxwcEzqbLeJZoCp6tzmIVqJRDGbfYFQpXzTKa0V2THUqX25wWH7Ex6kdlncwhqVfqMZ5sZiU8tiUPNy15c65zxUvxKEw7zSZw+z5qqjKcQer7NB8kTsz+Yh9Ux0x+H+zE3Uz5tf5RfvYu0mQZKL7b5Mrk3RF4wbP1kt1Aau9d4YNnP5T5vJE99UiJg53/tFgqF3S/uFVgGSlQBvUu4KftbuVzwVHIjk54eqRVhJb52BYv0cbJb8LXfyp2SV5tiXmB9b5jHRIVd/LVAKhSOfuf6VCa9Iw7JUwfx137dLS+ZCrtvuQ6V6Vgsk7vVAKnsb4UVpEKhfJKjMglZ9oLqQ6hWgmkpIlQaTBAqW/21gUSFEj/3YFR2IJjYoPTLdJhyucs4qvVgYoOyk++GlzqRiaCXE4UzUaBUOcX2QifCD4cHEx1q1TOL10VoxmR/ixolGlTiKS9n9Tap7I9C9DBRoPSHdJlcG7G2WMQEExFKTXGRWKgTQMrHBBMRSsrgobThygRcGgyOUHImz251F/YoKZhoUIIz8yhdztb1gMHgB5XF5PPkT8DwnIgVSs/smyROdVAwEaBUneG2nOGQJREJMRh8oGRS74xz333oyNJMcuehe09gG74dwJFwUIRVotrtSLJeXOZvalGXpUtcWS6X+11CDBMOCn921OuEn/jrUgeRax0eoIYJBaViTdRpXJlah+5441/7SCQMFHKgEpubQE3ZzhfkzENCoSLqAtKPIdtJ7W1fS0d4JAQUauk7hVUu1PgWy8MyNpiQUKoKR3JiTxaCf6rLyAW+/boH3m2JUDo8kx1i+nOKenjm5fxDCSYklATeMpGVfjX0dOC/PVIw4aCK4MNLdPdCCFWrsE+deRgo8DJRJRQ313L/6luJCQkMJQGZok60YhU8c8PmRGSoIvS0JfrsMZbqcw+cHLAEEwoKOvuoHRmL7ofBCVswoaCAa989uX4seTnYkDmYUFDAXLZI7oDw/CeHYMJAAXdeevnY1T/UnIgKJbchTEN684JdOeGwPuCgYAv6+vEwHAlw6MofCuQ6HOpAxVcwREHpoJYqYkRFlgNFQ4EOFEhMyRWM8r6v8GXkaP5ucPpCoEDrBKUdCBBM5d2Wr8MwqqPf83ffAteBQIG2XsIyAQmm8u78+sNSyLv7h/N3v6ChQAez6IGCVTDKR/PrVzlDQRa/C2Tb16zfECBRUCCD2EPOvl/AZVwUFGhFR4UUooIhDAqS+SGMVFiLVPpQkG0KnE7EdnUEbnjPU6m0gPp39nrPX9mP/Bf/LqDeSv4PymAogEOE50jQcuB+u+pr8RHzl7P96uj30H+12GzmL4cnZSCUDDhEr8IWP0ROVIrYHFteveDov4j74ArVhmxTrsGAB1M81Nc0oABJEri2/hdB2a+PCKStgEqafva3HW1n5y+Dis+S7I9bZceVhhgs0QsFYEmPO5+w838sbccXHKsU8UkDPlCMm6/9qiyQZgJilXd9Hcw/oFqa/6C88u7eMqM48H/g/y6vNCnqOX/74zGA5AlI5eszTZr/YPXdzzTpaPVNCBSkeacfWmizdT+YgsKElqjcT4VUB7ohWfpqMFGxhJlEyKFzyJpuv2rhSIg5KA6qCIDaWCncYAqZeSuDBcMSBgU6oA0GVXgwEebg8uCFN1QF8hVFZytBFR1MaCwXypmpuhfy7sGh/yblNAlUcvucf/a3uGBChla55CuMyaWav4s/zNRBX/21OKXwggnMhFrewYJAqaAHi/znF2z1jwUmEoXFsZQze7L7FTFKS/HGAkGBVgp3qOy3HQKSpwLX0gesPArrozyO35nipO2ckNuriFDAJp5hjcq0s1N3qq/hC5woqHwFBJW7M6hMxrv764e7nGrZwOYQYKvpNXH+Kd/93//Kp+sABgUrkOZyjklbKIzloSSpZ5YGBX52YFynMNUHK1cgdDfToPKVNpBqQqCqTwKXODxi7akAQsEf2rtDL4G19/VrsDb0QNtNgeufR4Ucq/oGE3MfI7gxGP4cA24Grs29hVosTXLgvnREr/3AAK/sijGIusqE3hsMhsI8sux8B+7CxnVMNwO9ixsMBe939vReBwyWUruLv0qV2G8Pf9ZDQj30NLypJezDSu0m+YqtAiVzgkNhH8UeXDdjRkupXY9Bl/lKCC3EQ2G4oXI1HtXD0ybFrI9gSDnS00YIKFxU+Tc0ua4Z1uoxjKZYRu1lgnoucfwHaUowzyRKpG/znj69mM2GYZqmYTSa5stTC/+k5eERasHAQNlfCFA+2XgwdTWokp+KFQRlf9zWwnf/FDQxMIczUKjZoatmZPU/1Jo7GuIoDQg1Lwcqo2yYRv5ZIleozwpGc5oF02BpZ7hBBSoYZhYT8LPaAJuDiVBrFQzlJX2mm9WDbAhWEtRGOdAI8XRidddYS0gYocLKgXVwgsNHm2c5iYMVB2Wrt2EVjHTDygkr3yVgRUPZURUM5TZNqB8RqX4cViRUTDnQukmPaRRd7UJDxZcDzee0mH6akTcRMwdDobxyYKxvNZ7SYXpaX/hgWGFQ6y1SIWqmQvXeTLiNiNDahPL7DZOUBhWAaSc0tNa/AH7Rb7gFVE8gps05WD4JfrE4tKvDkyF4tXiOj6cVqjWs8mvgIWpAMK3IFLqy38Sse5taxTr6vdJ+E9ZvGCvrVlhu4fxAdmOsUB0cLrtfIS1S61LMyJNwNo1N9L18zsHScP41c5hgWlVYHYZd73XKvcyxZt/XfyYn9RvGyXjhPgWdF3KR34Py2+XspH7DWCkmZ4c/hReCNjTrjJxd5ewRGZRrao44DpZzA9udIrHMeV8jtfthIaXB7TzwrsF6L4vjBqdBDKiFNOMHl2VwcGuw3kljOWtapO6HwMVqN8xfpzl+aTIiuatx6/N6+D6BDSn1ERPW+AZSfExQsDSJ7RMIxardkCfh4KXGjqTV18qt0wbbEuhjNW8pS4Zz98i6PniyGhubizMibeNr0szaM3K4WqMasU0r+Mm10J1l/IO8k69KMayfYK7ps8mw166o8SPqOHJicZiDriyjeXOXeOY5vnvxaqdcPtCKm/ZPHJagmRSz0Xh5mo5Dkw1nPPl53WxYvD6rnuDCk/sf4NIss1HTrp+f3ifT1sDTdPL+NLpWag2TzwjNPgXSj+Fu67w+z/9QxbK8IrYn07QsSuN6jIxbWABPTD6hlYIsA76H/OQVWmKl1H+CkVxVOeRhoqU1X7CJWeuRx5YoTpr52Eqm2NAdj8xJlKxGQltdlJznbQ0trf5Md9vVa1b/KEJaA9hWF6WphjopTUOmxn7U817bqtBSNtvYKeJjSvhIq3M7uhp/Zz0Q4SPNiDQYFE2tLQgty+LdGfXE4RCBSUpNQJmPpynBC2QwKOJtShCCGgyKMjIllim2zzUDU4I0GBSlbUoIBoOiQYqmxDUY4oIpqDsjpdAiGwyK0jElCovBoKh6LTq0XIOR/n+2Nt0RGVqu48mkWzz33hQWWhYfg0GRG1pCBoujwaBo/J2/39eM7yk3VG9oqnA2JaaSTTAFxdWUCDEYFA1HvEyJVhuJMRgUjfmYEpEGg6KJyRxaog0GRYymJAWDQVH1hp45aU32jhlBopqSFA0GRSRTkqrBoMhBh1bqBoMinCnRmhkYDIrgpiQzg0ER0JRYzcwMBkUQU8JUDsxGSaZEa2RuMCiKNSXbYTAoeo/6QpStMRgUhZuSrTIYFI1/rBchOZcDs9H0trnsHNMUs3n7twZTUNW7kf9klvY4uksjf/gfjZXHvK2glNsAAAAASUVORK5CYII="  height="60px" width="60px"> 
+                  </td>
+                  <td>1 year</td>
+                  <td>&#8377;8000</td>
+                </tr>
+              </table>
+              
+        </div>
+        <div style="font-family:'Martian Mono', monospace;margin-top: 100px;">
+            <img src="https://www.reshot.com/preview-assets/illustrations/4UD5KJTRVA/future-technology-intelligence-4UD5KJTRVA-w600.jpg" style=" display: grid;
+            align-items: center; 
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 5px;
+            max-width: 100%;
+            max-height:00%;float:right;" height="580px" width="50%">       
+            <form id="jump" action="/action_page.php" style="border:1px solid #ccc">
+            <div class="container">
+              <h1 style="font-family:'Martian Mono', monospace;font-size:4opx;background-color:orange;color:white;">Sign Up</h1>
+              <p>Please fill in this form to create an account.</p>
+              <hr>
+          
+              <label for="email"><b>Email</b></label><br>
+              <input type="text" placeholder="Enter Email" name="email" required><br>
+          
+              <label for="psw"><b>Password</b></label><br>
+              <input type="password" placeholder="Enter Password" name="psw" required><br>
+          
+              <label for="psw-repeat"><b>Repeat Password</b></label><br>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
+              
+              <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+              </label><br>
+              
+              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+          
+              <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+              </div>
+            </div>
+          </form>
+          </div>
+        <div>
+            <footer>
+                <h1 style="font-size:40px;font-family: 'Dela Gothic One', cursive;text-align:left;margin-left:5px;">
+                    PAKKA CO.<br>
+                </h1>
+                <h2 style="font-size:20px;margin-right:70%;background-color:white;color:black;margin-top:15ppx;margin-left:5px;font-family:'Martian Mono', monospace;text-align:left;">
+                ABOUT PAKKA CO.    
+                </h2>
+                <p style="font-size:10px;margin-left:5px;margin-right:50%;font-family:'Martian Mono', monospace;text-align:left;line-height:0.8cm;">
+                    Welcome to PAKKA CO., the driving force behind LEARNTOCODE! We are a passionate team of tech enthusiasts - Krishna, Parthiv, Ayush, Akash, and Kartikeya - dedicated to simplifying the world of coding.
+                     With a collective vision to empower individuals with valuable programming skills, we have curated LEARNTOCODE, a user-friendly platform where learning to code becomes an exciting journey.
+                     
+                    At LEARNTOCODE, we believe that coding is for everyone. Our mission is to break down complex concepts into digestible bits, making coding accessible, enjoyable, and Pakka (perfect) for beginners and enthusiasts alike.
+                     Join us on this educational adventure and unlock the vast possibilities of the digital world.
+                    
+                    Get ready to dive into the fascinating realm of coding with LEARNTOCODE, brought to you by PAKKA CO.!<br>
+                </p>
+                    <hr style="height:3px;color:white;">
+                <h1 style="margin-top:50px;">Follow Us:</h1>
+                <a style="text-decoration: none;" href =""><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-128.png" height="40px" width="40px" style="padding:10px;">Instagram</a>
+                <a style="text-decoration: none;" href=""><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Youtube_colored_svg-128.png" height="40px" width="40px" style="padding:10px;">Youtube</a>
+                <a style="text-decoration: none;" href=""><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-128.png" height="40px" width="40px" style="padding:10px;">Linkedin</a>
+                <a style="text-decoration: none;" href=""><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-64.png"  height="40px" width="40px" style="padding:10px;">Github</a>
+                <a style="text-decoration: none;" href=""><img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Twitter-64.png"  height="40px" width="40px" style="padding:10px;">Twitter</a>
+                <a style="text-decoration: none;" href=""><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_reddit-64.png"  height="40px" width="40px" style="padding:10px;">Reddit</a>    
+            </div>  
+            </footer>
+          
+    </body>
+</html>
